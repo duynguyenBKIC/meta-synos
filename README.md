@@ -6,7 +6,7 @@ This is a custom Yocto Distribution layer for SynOS.
 
 This layer depends on:
 - openembedded-core (meta)
-- meta-poky (if based on poky)
+- meta-openembedded (meta-oe)
 
 ## Adding the meta-synos layer
 

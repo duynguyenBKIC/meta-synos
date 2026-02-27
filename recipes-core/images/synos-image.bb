@@ -4,6 +4,8 @@ LICENSE = "MIT"
 
 inherit core-image
 
+require profiles/synos-robot.inc
+
 # Add basic packages
 IMAGE_INSTALL += "packagegroup-core-boot"
 
