@@ -14,4 +14,11 @@ IMAGE_FEATURES[validitems] += " \
 # Define packages for each image feature
 # The platform profile is determined by the combination of image features.
 FEATURE_PACKAGES_synos-ros2 = " \
+    ros-base \
+    ros2launch \
+    rclcpp \
+    rclpy \
+    std-msgs \
+    sensor-msgs \
+    vision-msgs \
 "
